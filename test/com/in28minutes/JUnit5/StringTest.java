@@ -14,13 +14,13 @@ class StringTest {
 	//@BeforeAll for connecting to the database even though if a class has 100 different methods anytime we use @BeforeAll the method has to be static
 	@org.junit.jupiter.api.BeforeAll
 	static void BeforeAll() {
-		System.out.println("Intializing connection to the database");
+        System.out.println("Intializing connection to the database:");
 	}
 	
 	//@AfterAll for ending th e connection after finishing testing all the the test cases in the test class file, this all has to be static method 
 	@org.junit.jupiter.api.AfterAll
 	static void AfterAll() {
-		System.out.println("Closing connection to the database");
+        System.out.println("Closing connection to the database:");
 
 	}
 	
